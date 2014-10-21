@@ -1,0 +1,1 @@
+- Plug-host rectification du problème lié à l'utilisation d'un id sur tous les providers (/!\ Chaque provider à un id différent par film)

@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Client.ControlUser.Btn_close"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="50"
+             MouseDown="Canvas_MouseDown" MouseEnter="Canvas_MouseEnter" MouseLeave="Canvas_MouseLeave" MouseUp="Canvas_MouseUp" 
+             Background="{DynamicResource ResourceKey=btn_close}">
+    <UserControl.Resources>
+        <ImageBrush x:Key="btn_close" ImageSource="..\Ressources\Image\btn_close.png"/>
+        <ImageBrush x:Key="btn_close_hover" ImageSource="..\Ressources\Image\btn_close_hover.png"/>
+        <ImageBrush x:Key="btn_close_clik" ImageSource="..\Ressources\Image\btn_close_clik.png" />        
+    </UserControl.Resources>
+</UserControl>
