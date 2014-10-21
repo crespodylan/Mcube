@@ -14,7 +14,7 @@ namespace Services
 
         private Log()
         {
-            logs = File.CreateText(@"Logs\" + DateTime.Now + ".log");
+            logs = File.CreateText(Environment.CurrentDirectory + @"\Logs\" + DateTime.Now + ".log");
         }
 
         public static Log getInstance()
