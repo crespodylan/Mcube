@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace Client.ControlUser
 {
     /// <summary>
-    /// Logique d'interaction pour Btn_close.xaml
+    /// Logique d'interaction pour Btn_close.xaml : Changement d'images d'image pour le bouton , gère l'évennement click
     /// </summary>
     public partial class Btn_close : UserControl
     {

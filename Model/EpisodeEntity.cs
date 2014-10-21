@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Model
 {
+    /// <summary>
+    /// Bean
+    /// </summary>
     public class EpisodeEntity
     {
         public string Id { get; set; }

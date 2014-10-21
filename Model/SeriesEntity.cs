@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Model
 {
+    /// <summary>
+    /// Bean
+    /// </summary>
     public class SeriesEntity
     {
         public SeriesEntity()
