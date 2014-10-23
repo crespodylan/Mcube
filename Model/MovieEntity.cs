@@ -9,7 +9,7 @@ namespace Model
     /// <summary>
     /// Bean
     /// </summary>
-    public class MovieEntity
+    public class MovieEntity : Entity
     {
         public string Id { get; set; }
         public string ProviderName { get; set; }

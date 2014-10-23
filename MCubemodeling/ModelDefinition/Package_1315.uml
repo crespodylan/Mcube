@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a35458f2-e168-4354-8ddc-de8666766f1f"
+  name="Plug_Host"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="fd27ae34-449b-47f6-ab37-abfcecfc8f3b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPlug_Host"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6893ff70-c5c9-4801-a82c-887e21895ab2"
+        LastKnownName="Provider_Host"
+        LastKnownLocation="Package1_1315.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c230b214-0f98-4cc3-98bc-9bfdb29a5b9b"
+        LastKnownName="Reader_Host"
+        LastKnownLocation="Package1_1316.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="9931f1e3-644b-4e03-b778-09d91fdabff7"
+        LastKnownName="Saver_Host"
+        LastKnownLocation="Package_1317.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

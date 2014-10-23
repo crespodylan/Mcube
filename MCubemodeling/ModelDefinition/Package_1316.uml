@@ -1,0 +1,2108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="11d70f37-88c4-4a33-a370-3317579dc83e"
+  name="Plug-Host" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="5a071f02-5ebf-49e9-ae5e-83d7ba39371f"
+        name="ProviderHost"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7522cf84-8f10-43a6-84df-22a700008c26"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="66d77bb4-3eb4-4dea-90e3-e3e7de2ded1a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="38de70e0-b948-432a-8272-cdc713e001b1">
+                <propertyInstance
+                  Id="fa87ce15-078e-49cc-9a83-25d225ee45f1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="06a40901-af1a-40d8-837a-08d231ababd5">
+                <propertyInstance
+                  Id="e6dbe734-13ef-429c-912d-488173b3284e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="08c96b98-950d-45f8-9760-02e7be27443a">
+                <propertyInstance
+                  Id="5e4d279c-7dbe-4393-aaaa-ad6a7258aeb1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ecc665dc-546f-4140-b4dd-6c6e998c0a01">
+                <propertyInstance
+                  Id="ea85451d-70e6-47d8-aec0-b2970e4fd6b5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0b9f8ddf-431f-45ac-ad7d-9edce86dd4fb">
+                <propertyInstance
+                  Id="6a24d567-568e-45f1-97ae-ce4467b695ed"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="07b57c1b-9ae5-4c53-b6a4-54cb3862fb60"
+            name="singleton"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6d5c120e-2b1f-48be-ab70-e971bf60e75a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3Dsingleton"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="effcd18f-c8d1-47c1-b6f2-ea678e03a4f3"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84c590a8-c684-4610-a1dd-00a35c59a0bf">
+                    <propertyInstance
+                      Id="51c041f1-0143-441a-8f94-d8318ba7f9ad"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54c44407-b2e8-4167-bc73-3dc59a7f1f48">
+                    <propertyInstance
+                      Id="8330eea7-0a13-4142-b9ea-9fde6cb67dcf"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f946d677-280e-474e-9de7-b5665b1aeacf">
+                    <propertyInstance
+                      Id="7b766286-19ce-429d-8c4c-8d20cf221087"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4b5e9af-324e-4025-90b1-e04a2c09702b">
+                    <propertyInstance
+                      Id="dceb47aa-c42c-4eda-abf0-7c141e02caa0"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf83cbd0-54f0-42e3-abdf-e851fdb81f93">
+                    <propertyInstance
+                      Id="c5140011-a40e-47c9-9080-5d8481c74bff"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5a071f02-5ebf-49e9-ae5e-83d7ba39371f"
+                LastKnownName="ProviderHost"
+                LastKnownLocation="Package_1316.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a81f5337-7382-45c4-a0bf-e23a7fdec130"
+            name="ProviderHost"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e59e9a59-c369-4d00-8090-2f035a64d985"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="74dd50ba-2228-4fe6-a028-a82a4dd52cb9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6584e18c-93fa-493e-8b54-0f7b127112fb">
+                    <propertyInstance
+                      Id="88f774c9-6141-4d98-872f-8eef495e49b1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="194ff9d6-7be3-4240-9846-739880423ef9">
+                    <propertyInstance
+                      Id="957383b4-75e5-44be-aaef-64eb7297a6af"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2b9b47a-90dc-447e-94e5-6735618ce587">
+                    <propertyInstance
+                      Id="9d3963e1-41f1-42a6-82c6-9d5c8eeb3635"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d31e28d-c841-46a6-9234-0e63eab79d3f">
+                    <propertyInstance
+                      Id="a257a869-bc4a-4fb2-a092-6dcd9afe7f23"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5a929a4-c39f-40b9-9926-c7784a7d65d7">
+                    <propertyInstance
+                      Id="1d8381a1-5f47-4bf3-bac9-f99319cf5f66"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b9fe488-9bfe-4be7-868f-2000e3d2557a">
+                    <propertyInstance
+                      Id="e41e1fc0-d9ba-4973-a29a-7ca9c1055dc2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="b7ae7e6a-eb31-4d61-9c3a-37c7c2006ad7"
+            name="getInstance"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0fd37ee9-6473-40e4-8e03-1c95b55239ff"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3DgetInstance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="898eee01-90a0-4dcf-89b7-52f542f8968c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70fdb73e-04f8-44a9-8884-4239b4908baa">
+                    <propertyInstance
+                      Id="e2a31923-8f8e-4d6f-8fd9-3e9528bb5b34"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4f3d21e-13fe-4aa4-947c-9e43926b1a43">
+                    <propertyInstance
+                      Id="1f547230-3a2d-42c3-914f-31adc530e351"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a8dfefe-e5ca-49f2-8874-dd22c36daeca">
+                    <propertyInstance
+                      Id="debe34f4-529b-48f0-b422-81ce9e46e06c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ebdcb0e-8fc4-4a45-8b9d-6830d58deeeb">
+                    <propertyInstance
+                      Id="1152744a-dc1b-4a1a-85ca-f99ed1f08389"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e1971b4-904a-4f2e-8199-d2fffbcaa56e">
+                    <propertyInstance
+                      Id="fddb26cd-b7f8-4208-9395-91490fdb9f9c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04b6c46e-dbd8-4418-ba2e-2c3ef8305f5e">
+                    <propertyInstance
+                      Id="edee57df-5971-4cdd-90b9-fd9629495dac"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="14ba6a89-4644-4c5b-959c-36038c5b5ae1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5a071f02-5ebf-49e9-ae5e-83d7ba39371f"
+                      LastKnownName="ProviderHost"
+                      LastKnownLocation="Package_1316.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6614ac66-e748-4312-ad0f-2e7b8f4bac64"
+            name="searchMovies"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a2783114-89f2-4bf4-ba6e-0c05ac0b4f76"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DsearchMovies OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9bb8f615-62f1-4030-abdb-e0a2f08ca64f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f2bb5ae-93a1-435e-96c3-7b41c70ed7ef">
+                    <propertyInstance
+                      Id="374a02fb-ea8d-4c0b-b6b7-c23743765bcb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc0d0aa7-20ac-4531-8b06-63a62917e516">
+                    <propertyInstance
+                      Id="4280d566-78a1-415c-9023-0bcf4a0a082f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58d75b91-3681-4d74-8253-b6778b3f76b6">
+                    <propertyInstance
+                      Id="5390c3f5-c933-48dc-b341-6917e064d33e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f1f9bc7-1ddb-4674-8baa-61fff883a463">
+                    <propertyInstance
+                      Id="54777007-3a2a-451a-b1cd-69b442e71303"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9686a5a1-d345-4efe-ba6e-cc5671694d52">
+                    <propertyInstance
+                      Id="53397c7c-05df-4698-bb5f-f55fd6b2ab61"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac1a364b-a3c4-4632-8658-97d038e32eaa">
+                    <propertyInstance
+                      Id="a24f7cee-49fe-426a-bc1d-1b74b0cc672f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="169a0dd1-6d0d-488a-b021-c80a0c90b1f9"
+                  name="d"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5d1e7ae7-45a9-4411-8941-619ee8e164dc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DsearchMovies OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dd"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2d94d426-cf4f-499c-922d-ee7f552b8e00"
+                  name="error"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bb828f06-773e-4b78-af7c-b500bbcbcaa9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DsearchMovies OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Derror"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c3ae245f-b229-4e0b-8013-d0cbf643b3ff"
+                  name="title"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="32f2ac9c-6950-45f0-b97d-4d66b780cb1e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DsearchMovies OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtitle"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="538a7508-e56a-4f2c-b7ed-c4cac11a23d1"
+            name="searchSeries"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cb2492ef-149d-47db-b255-56cfef09019a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DsearchSeries OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0cb2161d-fd68-4b1b-b4df-bd31f3d1735d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e6f305b-dedf-4d3f-aeed-85719d35ba59">
+                    <propertyInstance
+                      Id="2db793d9-7def-4a8d-b340-e39b3a22af80"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f7ed3e2-f0d1-4019-b413-49abf4298fec">
+                    <propertyInstance
+                      Id="49eb5c95-ec6d-404f-ae76-97d7bbf28ca9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c01deea1-49de-469d-ba41-d66c8e8eed23">
+                    <propertyInstance
+                      Id="6019fae0-3c60-490f-8bc4-2bf9df54297d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2a538f7-366b-493c-99a5-b6d769339cce">
+                    <propertyInstance
+                      Id="1718a3dd-df4a-41d7-a99e-42624c4b43b0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6aa6f187-fb2e-4eeb-a3fb-ee55d6d8a5cb">
+                    <propertyInstance
+                      Id="317e169e-c6d6-43eb-85c4-1b2bcfc186d9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8ab1adb-bc7f-46ae-a292-e2bb7ebcdc1a">
+                    <propertyInstance
+                      Id="e5931530-f732-4322-8e75-00b27f4aa1dc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="12402f5c-a4a9-4751-a17c-89d21c54fb7a"
+                  name="d"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d06fa558-e3f5-499f-9654-6d0223da6c30"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DsearchSeries OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dd"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="689af6f1-a111-45b3-8ea3-dfc51f9be41b"
+                  name="error"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cb085ab2-6446-4b43-98e3-1f45ed07736e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DsearchSeries OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Derror"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1ef6640b-b030-42f9-8f1f-1c91b3549d6f"
+                  name="title"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="331b8b0b-8a0b-47b3-89dc-7c95895a8f6d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DsearchSeries OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtitle"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6b60f7f6-9dac-43d2-9a23-3f84483313d0"
+            name="fetchMovieData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9f0471b9-7c64-4e70-94e0-7dcc4f8f83f9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchMovieData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="318f3107-d84f-41ce-ae79-deca6ecab363"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b9824a8-f898-428a-962b-5b572863ca1d">
+                    <propertyInstance
+                      Id="2afbf689-316e-4cb1-9916-d1a87c21256a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d894a5e-41e6-44af-9fbd-20bec2b46f06">
+                    <propertyInstance
+                      Id="40a631d2-d778-4003-bf41-898e0bdc34cc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2da55fa6-9b85-46b7-ac71-44261b4e4db2">
+                    <propertyInstance
+                      Id="d36703f5-732a-46aa-92a6-c9471e30521c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53a0f75e-d34e-4996-be78-1421192f756a">
+                    <propertyInstance
+                      Id="d4d06f5d-2d4f-4d78-b09a-ea398f518408"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c505162d-f37f-4504-97e1-83aad12b0648">
+                    <propertyInstance
+                      Id="d4bc33e5-c040-4931-b86e-1e839404c734"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="637ef65d-f1a1-41a3-8fca-4c2fae0a83cd">
+                    <propertyInstance
+                      Id="0a13f26a-23b5-47df-9014-771e9c57eda1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2b691cb4-fd9d-493a-8a05-f0e8eb90475d"
+                  name="d"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="11235be9-50f8-413b-82a0-e4c28ebb26fb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchMovieData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dd"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="30c7a489-b9c8-4860-8c55-010cebf29543"
+                  name="error"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="821c6ca2-b84b-4c7f-af6d-db16d1f7751a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchMovieData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Derror"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9009bd55-4134-4585-8ca4-307ba91b0b63"
+                  name="providerName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="30758872-6a96-4017-8fdf-0c342f35c6c6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchMovieData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DproviderName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="22ec228d-0905-4135-9c73-f2c46a7c11c1"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="551436dd-91ff-4543-8cf8-f93411185a08"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchMovieData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="af5d7e7a-7196-47ba-b018-94f3e46e19fb"
+            name="fetchSeriesData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1b6a8ed3-4769-465c-a541-e6e2b8afc3f7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchSeriesData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="712da61f-ed6c-4da9-b6a1-e7ad8535fece"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75d47ba8-151e-47fd-8d4c-af1f1974f00b">
+                    <propertyInstance
+                      Id="a28aea6b-4947-4167-95a1-f44b24f7ad48"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="755839e7-ebeb-41c5-ba5e-5b8656cc9335">
+                    <propertyInstance
+                      Id="af384196-9f0c-4886-97a0-9920b8692348"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e5fb728-33fc-4208-ad01-8ca7aaadd18b">
+                    <propertyInstance
+                      Id="91c52384-44fc-4f25-9420-e5cc810d2da4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df271996-e877-468d-8fdd-50dff5fae518">
+                    <propertyInstance
+                      Id="e79c85fe-d227-490a-992f-01613fd335f1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57913536-ec97-4e45-8dac-4a411e11a421">
+                    <propertyInstance
+                      Id="2b6fe829-205d-4b19-9ad4-b9fcae5ddd20"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d2137af-acd4-4980-95ae-918273244f24">
+                    <propertyInstance
+                      Id="2750b1e8-0832-4a22-a9e2-8d02b26a5731"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c497749f-b8fa-4963-8ecd-a9b6bdc3c8fb"
+                  name="d"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d5d62f1c-fc03-42f3-a692-e195d872abf9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchSeriesData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dd"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5713aa79-9b27-4f34-8581-1fe050cd0498"
+                  name="error"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="54fdf87f-2240-4239-a454-98abc4708874"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchSeriesData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Derror"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="74f479a6-3f75-47f7-a27d-482fcc4b20fc"
+                  name="providerName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="04496d82-2150-4961-911e-1c3e08e932cf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchSeriesData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DproviderName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="507f56da-b776-452c-a404-4c2d6ad43942"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="896d460b-e5a5-4370-b11a-3f9f2e38f907"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchSeriesData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5f29ab6e-2d19-4759-a369-ead5546efb94"
+            name="fetchSeasonData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4e90b222-6f2d-4ffc-b886-84bc9164e1b2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchSeasonData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5da929dc-9a92-494f-8450-5a2b249d7f2c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eca14038-a625-44e2-8bf3-ebe4e7ae0f41">
+                    <propertyInstance
+                      Id="d581619f-21ba-429d-b0ca-fab4bfe8817e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7dcd785f-afd1-44fb-b6a2-4371eb15ad05">
+                    <propertyInstance
+                      Id="aeac3f18-b6c4-43cf-87fe-c0bb1682ae59"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02d89210-5c07-4b6c-9714-b5c403d9f4d4">
+                    <propertyInstance
+                      Id="6483d0cb-b659-43be-b474-dafdf91da9e0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8acd7cd3-fbb9-4674-8b31-93c672ba56ae">
+                    <propertyInstance
+                      Id="bc49e613-d9e2-4478-ba4e-0941d457c446"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df191288-2291-45ac-8fd5-16c51a6a560d">
+                    <propertyInstance
+                      Id="a3cb9569-1813-4a40-8148-0bd54cbed9f2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4cdb0477-4ebc-45f3-874c-a78acce75392">
+                    <propertyInstance
+                      Id="5e3e69f2-9136-4936-90fc-1807328bcfeb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="950d3fe2-b571-4d24-96a3-c87a31905d76"
+                  name="d"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b74798d5-0d69-44bd-8275-a4e72923110a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchSeasonData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dd"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2c29874b-b398-40ff-b22c-7c651f808671"
+                  name="error"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ccdd2dde-6a03-411d-8700-7dd99fdc7bd6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchSeasonData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Derror"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2e387139-99ca-4fca-a0d3-b707994cf48f"
+                  name="providerName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="83b802a3-17b9-4bfe-b03d-fbd76bcb18ab"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchSeasonData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DproviderName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cb291a13-92e1-44dd-b4f8-a8fd8c7d3c18"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8e89ef66-ad9b-4a2c-b37f-f0d4c8704da1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchSeasonData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4a6d4691-2684-4526-811c-b8cf66881fb8"
+                  name="season"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1f38287d-9816-4c72-9735-73babc30a41c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchSeasonData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dseason"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8957f758-4507-4751-96d6-f0d4b0c67473"
+            name="fetchEpisodeData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="47e43b3e-e229-4ba3-b443-7be695152653"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchEpisodeData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bc26b08e-a229-4abf-8d17-784497b7ba45"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0a93b1f-4fb5-4906-b617-566896057182">
+                    <propertyInstance
+                      Id="c55f9721-377f-4ace-914e-6466b052b04c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1976965-8076-44cf-8a14-91bec52a5ef0">
+                    <propertyInstance
+                      Id="94ef9fd5-5d92-4526-bbf6-3c9e453f6fe0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d363d12a-73d3-40b4-a92e-280af6c2c986">
+                    <propertyInstance
+                      Id="244407c7-8900-4b42-9287-babf86143992"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98ad7007-74a1-4591-8321-474c9068cf5e">
+                    <propertyInstance
+                      Id="bdfb224c-5f56-4d19-bb2e-e49ac892ae2a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9bbfd7d-03ac-45a0-b939-8e81983f2582">
+                    <propertyInstance
+                      Id="22561e1c-c719-4ceb-a59c-8f298f7c37d9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec7c474a-885d-4222-8e4e-ba464ce0f2c2">
+                    <propertyInstance
+                      Id="2af84e7c-4252-469b-8666-1d06c8179a62"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4500925f-de93-419c-ab5a-09b9879fd2ac"
+                  name="d"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7f48cf0d-9bb3-416f-af30-7cf4caa72c09"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchEpisodeData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dd"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ed4d9407-77f0-4912-b134-492746cfd845"
+                  name="error"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f181a4e1-26b9-4ff5-81c0-88fb27053174"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchEpisodeData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Derror"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5fcdda96-ad03-4c48-a44c-bbf464da0850"
+                      LastKnownName="Delegate"
+                      LastKnownLocation="Package_1303.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5304d945-4335-48bd-9d12-233ed7039503"
+                  name="providerName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9a4c8124-03d9-4d53-8f25-ac6c190cc3e8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchEpisodeData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DproviderName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="93a36030-0532-4f2d-be85-324757b0a0e5"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fb93c6d6-46bb-4259-b737-dd853f30428a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchEpisodeData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5fdcb49c-cd65-4b37-a7e7-ebbfcf76c8e4"
+                  name="season"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e13e1fc0-166c-43cc-b413-6bd9df9892f1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchEpisodeData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dseason"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="eb04725e-c3b7-4244-9577-a820c3bb4e9a"
+                  name="episode"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e8bb4edc-cc41-4e62-b45b-92f189aaa414"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DProviderHost Member%3D(Name%3DfetchEpisodeData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDelegate)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Depisode"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="7cec485a-ca8a-4d32-a53e-7c4330aaca94"
+        name="IProvider"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="76043a33-6621-44bf-b17b-323f8b5189fb"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9a10bcf9-0030-48d1-9a46-eed56bdb51fb"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8e3c0e27-dfd9-4a26-bd77-422aa715c501">
+                <propertyInstance
+                  Id="65013edd-ac80-45ac-aa6b-7126d06921df"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31e6777a-541d-4afd-99c6-44afe753026d">
+                <propertyInstance
+                  Id="f483b47a-7cc4-41e0-9c5d-b47495fe1192"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7597ca0f-26d3-4338-ad16-344c259f82bf">
+                <propertyInstance
+                  Id="54e7c457-94a1-41f5-b751-ce01c2e64a91"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a2203fa-6f75-478f-9073-092b83d6b469">
+                <propertyInstance
+                  Id="56db84ee-14cc-43bf-a61d-5fac9df456eb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="109be407-7614-4191-93f8-af34c7b2da60"
+            name="searchMovies"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e3beec24-ee5a-4b73-9e14-96ce9282a73b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DsearchMovies OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2d87a99e-a59b-449e-8806-c76e9ac55a41"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a737093b-95ef-42f5-be3e-f5dcdf95a752">
+                    <propertyInstance
+                      Id="247cea5e-ff00-4b76-87e5-a8140428ba84"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64d4c91a-6ede-44d1-89f2-fd6fbed463cf">
+                    <propertyInstance
+                      Id="5b8ccc07-541b-471e-9098-61692fbeb544"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd40e415-0843-4848-bc0b-3a467bf3f31a">
+                    <propertyInstance
+                      Id="d6ad2fc0-667d-4723-8688-f6dd78e7fe94"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac4b1ff1-22d7-41ee-b76b-9aef89b0f320">
+                    <propertyInstance
+                      Id="1ab4c51c-8dc8-4885-a733-944fd6aa4294"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c75a7ba9-8f36-40e7-8c09-839c91d66b45">
+                    <propertyInstance
+                      Id="d1aa27d8-69a9-4253-85ad-b35058a3b4e2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb6fec87-3449-44a1-9893-1e9e64144824">
+                    <propertyInstance
+                      Id="0e7a7cb7-5e31-476b-a0fd-c037ab48ebca"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="badbcf31-3b5f-4aad-a268-2230b4dd5ffd"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4f3a1909-baaf-4f3d-a223-b23471f0f4a7"
+                  name="title"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a3fa0a34-8952-46cf-9082-8447c3ace5ff"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DsearchMovies OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtitle"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f6fe5c1f-1bf8-454d-9bf5-8d2e9cb4a5d9"
+            name="searchSeries"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ec2795f6-c0ff-4eeb-b842-87cca4684a9a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DsearchSeries OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="518814f3-fe9a-48ad-814d-44e1a985be50"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="967d74b0-10c2-4db4-bd41-d01bbb99234c">
+                    <propertyInstance
+                      Id="71ec085d-3643-43f8-971c-22e5826a5d0a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1fe4d65-42c1-4138-99a0-c2be3f1b3a8c">
+                    <propertyInstance
+                      Id="fafa4f4c-e5b2-4534-9df9-c910326ba749"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77b86773-bc16-46ab-9590-29874c34967d">
+                    <propertyInstance
+                      Id="7b4d99e5-9f04-4f04-a199-f9d552b58940"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f999b4e-be57-4178-bd21-6b0089fec2e7">
+                    <propertyInstance
+                      Id="3c2f6c3a-eeb1-4990-80cc-0136dae38508"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8d1ee8d-79b5-45bf-9769-5b07f729c072">
+                    <propertyInstance
+                      Id="79886e72-3a4f-4d58-9977-d171b72dc7de"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff848d78-fa54-48a9-9260-a0235c527c91">
+                    <propertyInstance
+                      Id="160618be-d312-4b2b-a50a-ad4a28e9d00d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4ff553ec-33e6-44f7-b061-1a6d845708cb"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="81f09a41-e78b-4767-a2b2-5dae79eda51e"
+                  name="title"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1bbea198-3ac7-4ed7-a45c-a5250eab5128"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DsearchSeries OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtitle"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f1cafcc9-4ab0-45cb-bdc4-ef137fda6d1d"
+            name="fetchMovieData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d1717fd1-0918-449c-8f9b-091fb53d8b9f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DfetchMovieData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="40c1f260-6705-471d-a8f6-848f560aaaf6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26683373-94a4-4397-9664-820ebcf0aa0f">
+                    <propertyInstance
+                      Id="6ea01406-b92b-4dd0-b985-0219d451ec46"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7c45d9f-f361-476a-9706-7e49bfff92bd">
+                    <propertyInstance
+                      Id="19bf2521-3300-4d05-a413-d118214b741e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="476ce587-7471-4d11-aefb-63bbdf6d7268">
+                    <propertyInstance
+                      Id="d6785bf5-4384-4fe4-8c0d-77f1afaff6bf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="441b062c-da2c-46bb-ab01-5cafd2ca84ab">
+                    <propertyInstance
+                      Id="b1d7d1ec-7e4b-4b83-9464-2a53ec055b2d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef9ba6d5-9c56-4e6c-a163-b8defe8e8660">
+                    <propertyInstance
+                      Id="b1f12f6d-6abd-467d-8f2a-4e59cd4b6c46"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb66141e-4bc9-41b6-96de-52293a207270">
+                    <propertyInstance
+                      Id="596f3c5e-9d4a-4acd-81af-747b7a5ed057"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e72ec06d-151f-49f8-9138-5a50941d0700"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="87d70df2-c99e-4191-addc-6013e8890c84"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2bb70123-403c-46b6-a7ad-7e5e93a07af6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DfetchMovieData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="80a19007-965c-4cf8-a13d-5a0ea9e61f14"
+            name="fetchSeriesData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="afedce70-3d4c-4f59-a201-39826c14d8be"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DfetchSeriesData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6661ba6f-2bab-4fbb-a42e-e9513cab9d5a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00243ecf-30d8-496a-aa7f-7f617dc751ca">
+                    <propertyInstance
+                      Id="47b6ac56-1066-444e-95bf-bbc73a2291f3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44864f86-7655-4c24-b0e4-19d58b0a3416">
+                    <propertyInstance
+                      Id="80bec5ad-13c7-4105-8880-48c05518bb00"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3499305-e0be-406d-b6f0-165c115a4b96">
+                    <propertyInstance
+                      Id="27d880b9-3976-495c-a8a8-0bb68d3bb6ff"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8022e29c-a484-4e81-b034-5f8c104b43e1">
+                    <propertyInstance
+                      Id="28a4f50e-b1a6-48a6-a1c4-f4806ab82f36"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e735d7a4-f58b-46dd-8bd4-d79a19ed1320">
+                    <propertyInstance
+                      Id="7e281244-7850-4c93-8106-efd25d322db9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62eb65b2-0db8-4608-be09-2de2c3304e28">
+                    <propertyInstance
+                      Id="78ec3e84-7974-4d1b-83c7-572eddbf26c7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="09458481-3e57-4cd0-b2e6-aaa01739c8c9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d7ee432a-ac16-4ac0-9473-faecfbb7c00b"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e0200553-4852-45a4-a6e5-3755f87993f0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DfetchSeriesData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="395fd8b7-3d88-411c-950b-4ba963b4598f"
+            name="fetchSeasonData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4a3cf849-78a1-406e-aa4d-2522103ccf60"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DfetchSeasonData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7a1dc705-43e0-40d9-97f8-a4066b6c3d6c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="128b9b06-85be-44b6-8215-2ada7622d962">
+                    <propertyInstance
+                      Id="44cacd47-c369-4d3f-b6f8-cfb23274c2a4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9f297be-953d-4d4c-a9e5-a4d316896907">
+                    <propertyInstance
+                      Id="8598366f-8326-48d9-9c34-5fa5bb814710"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82bb836a-172f-4137-b56a-e2a91c3afd3d">
+                    <propertyInstance
+                      Id="893ede1d-ceff-4246-b5bc-43116dd14400"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e116b01-c474-4081-8d2e-32391e128a7e">
+                    <propertyInstance
+                      Id="f411349b-f56b-4e89-a90f-c5d5f0be0d29"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbd3ee7e-a46f-4c7c-a8eb-da487ba74289">
+                    <propertyInstance
+                      Id="061adf9c-f209-4e5c-9c70-d1519aeba649"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3849bd9-610c-49cb-8266-35b49ce2b4b8">
+                    <propertyInstance
+                      Id="ca5751c9-7537-49e0-b456-7d99d950c0ed"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="83ccce4c-22f1-48d7-9ee8-2f249829de2b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="05271c8d-c72a-41fa-a59c-d69410fc8198"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c5c448eb-08b9-4956-8466-593eb7d737d8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DfetchSeasonData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cf72f7d0-1df7-49ee-b526-7371a2a8f19c"
+                  name="season"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5c13054d-9699-4184-9b09-d82ebb3b6ed6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DfetchSeasonData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dseason"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b4f80e3e-b8aa-448d-8070-661d9fb2df7f"
+            name="fetchEpisodeData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4fbbbf85-0a4d-4314-b771-df6a2cc381d6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DfetchEpisodeData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="61fc1a7a-caa1-4c27-8efa-39617be070a8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9957d9ff-5a3a-449a-88aa-beda34c4cba3">
+                    <propertyInstance
+                      Id="140d8385-9591-46fd-b8c1-0451839f6b08"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94da1716-e36f-4fc0-bf86-c8eccbe53c57">
+                    <propertyInstance
+                      Id="a5acceb2-c0fb-4332-9a1e-f99939c8606f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5048f6f-9010-4cad-b69b-d31bed5b8334">
+                    <propertyInstance
+                      Id="e86ee3bc-3dd1-4655-a873-112506ceb99a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5825a4b9-41c7-4ddd-a67d-60f3a8ffcf19">
+                    <propertyInstance
+                      Id="8d339eeb-e36b-4a13-a32e-933ee2d44d84"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30d34354-56b8-44c5-ae95-8c426213e12d">
+                    <propertyInstance
+                      Id="882a3adb-431e-4eaf-ad2f-ecaf32f3b515"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4931903-7055-4f21-b3e0-280174f49f03">
+                    <propertyInstance
+                      Id="1f5ca51a-d73b-4ec8-b91f-a85d308a3b9a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c9426407-409c-4a6b-985e-c37f1085cc31"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="99d99784-c536-459f-bbc7-026832fb4450"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="78ef0a12-994b-428b-a0a9-c59fabfe4e4b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DfetchEpisodeData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3b7779d7-6546-4dbd-87db-efcf2b3cd3be"
+                  name="season"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b3c56cc5-0213-4f30-92fc-8491b5c69245"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DfetchEpisodeData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dseason"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="34b577c9-f1ee-48e2-a1da-40a0c1d049a9"
+                  name="episode"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ffbac185-a894-4d86-bcf2-b9bc2bfa500f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Provider_Host Type%3DIProvider Member%3D(Name%3DfetchEpisodeData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Depisode"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="MCubemodeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3f95cf99-c40b-4acf-998b-7786f7d68c4f"
+        name="ReaderHost"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c87d24c0-477c-48f5-b197-db4c0665268d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Reader_Host Type%3DReaderHost"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="78451d6c-8723-4108-80d9-8490bf1e66fc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="43411537-09f6-4757-bd02-961557b2f056">
+                <propertyInstance
+                  Id="fb700f7a-1329-4050-9d5b-04215c2bd955"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="afdb9469-e2a6-4ec1-858b-66bb008e76ca">
+                <propertyInstance
+                  Id="8ed4970e-d4ad-4446-a57f-46159f127b44"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0706e2ba-7eeb-4e9c-ab75-083eead76299">
+                <propertyInstance
+                  Id="ed9f4acd-c2cc-43ae-a584-e8a45af1ab90"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7f876ab-26da-47e6-ab0d-91b592cd4c10">
+                <propertyInstance
+                  Id="aa7ed92f-4814-4361-b148-3ce64f06d240"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7261ef86-3507-4a62-81eb-9ee78a33b247">
+                <propertyInstance
+                  Id="cc9ff13e-b8b7-4aed-9f45-3c3f6b5945ea"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b456f242-6a63-4100-a440-f8bbb88d753c"
+            name="ReaderHost"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="43fb2767-19ca-464f-baad-1dd7ada048f8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Reader_Host Type%3DReaderHost Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e45624e6-f706-44a3-a8a8-520b57ab0ef5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="001e2e78-534e-424a-ace3-ed90d62af7da">
+                    <propertyInstance
+                      Id="87fa60bf-3fc8-4e9d-9afc-73bc9daff940"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3a16e1d-0164-4389-ad3b-f37882cbcbdb">
+                    <propertyInstance
+                      Id="bd4d5d51-3fe4-4537-bf51-9b81dea3c1a1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fee7a606-666a-4017-ad9b-6d3a7757bfeb">
+                    <propertyInstance
+                      Id="63a1db5f-27d8-43d4-b009-5487412f0a69"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38eeb03c-6d30-47ab-a619-267cee640073">
+                    <propertyInstance
+                      Id="5d684d58-0f10-423a-92ef-6eda15d60851"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8bdc9eb-18d3-41bc-87e0-9c3ebf50b7b9">
+                    <propertyInstance
+                      Id="0011483d-901b-454f-bc9e-d809a204d243"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f6172fe-1a87-499e-8b98-ff2b9fc2ba63">
+                    <propertyInstance
+                      Id="840be794-17db-45ee-ab45-a700aeb4af5e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0645bf99-73be-40ff-854d-1fb81f16dedc"
+        name="SaverHost"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="30686234-8a86-48a7-9e9b-27105589e9a3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Saver_Host Type%3DSaverHost"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="001412be-6d34-4e06-acff-b1df217d5752"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9eeea1b3-b329-47f5-a8c7-faafc817d590">
+                <propertyInstance
+                  Id="cd6fe570-3be5-4af4-bbee-1eccdcef3e07"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="994fbd3a-4df5-4403-85a2-4ef0c00fc053">
+                <propertyInstance
+                  Id="3545fed5-b074-4642-9a18-0be8de967cd7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c477cd9e-c85a-45a5-940c-03af7c09faa6">
+                <propertyInstance
+                  Id="50f64702-ed1d-4ffd-8167-d6fe42d27f9e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5afbf9f1-0d97-4ca4-921c-f2fb6ef3df6c">
+                <propertyInstance
+                  Id="8741a05a-4e8c-43fd-92be-52276729c60a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5e5c837a-8d02-4549-ac2c-b5e8e41d4e23">
+                <propertyInstance
+                  Id="8f2b63e2-697f-4fdb-834f-272d67e43eac"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ea70284a-b870-4a1d-8ef7-65d2f9b75b44"
+            name="SaverHost"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="980572bd-3b17-4bc5-8991-145099bf57c6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FPlug-Host%2Fbin%2FDebug%2FPlug-Host.dll&quot; Namespace%3DPlug_Host.Saver_Host Type%3DSaverHost Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f3f47f6c-f21d-48a2-9cb4-136af4641efd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b03ecc3-a08a-4ffe-8402-06529d887aa8">
+                    <propertyInstance
+                      Id="bf1c008f-ddd6-4ff8-9f7c-26ebaa343341"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="492a8dd0-dd09-452e-8d9b-4a485263f33a">
+                    <propertyInstance
+                      Id="ca4e2af0-b6d9-4808-98f2-f9330a90309a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ac385c7-7aa0-4369-9a0d-6e5dca9ad8a9">
+                    <propertyInstance
+                      Id="148283b6-87f4-4fa1-b49c-2dbf346f0e0b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89574946-3d67-4ffd-a0a4-cdb4be1bbef2">
+                    <propertyInstance
+                      Id="3032d396-638e-4cb5-b84d-9e24639a9fd9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4dd8d7f-cbcb-4c72-a279-e926fd87a763">
+                    <propertyInstance
+                      Id="6b77312f-d110-4598-ae62-b4c9137f9e06"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6721a356-f919-47b3-a3fd-61f196bd96bc">
+                    <propertyInstance
+                      Id="23c31cb4-40d0-4e27-b313-e8b855a285cb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -8,7 +8,7 @@ namespace Model
     /// <summary>
     /// Bean
     /// </summary>
-    public class SeasonEntity
+    public class SeasonEntity : Entity
     {
         public SeasonEntity()
         {

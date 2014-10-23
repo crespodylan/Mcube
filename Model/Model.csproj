@@ -39,9 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity.cs" />
+    <Compile Include="GenreEntity.cs" />
+    <Compile Include="GroupEntity.cs" />
+    <Compile Include="MusicEntity.cs" />
     <Compile Include="EpisodeEntity.cs" />
     <Compile Include="Exception\M3MapperException.cs" />
     <Compile Include="MovieEntity.cs" />
+    <Compile Include="PersonEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SeasonEntity.cs" />
     <Compile Include="SeriesEntity.cs" />

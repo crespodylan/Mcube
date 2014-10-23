@@ -9,7 +9,7 @@ namespace Model
     /// <summary>
     /// Bean
     /// </summary>
-    public class SeriesEntity
+    public class SeriesEntity : Entity
     {
         public SeriesEntity()
         {

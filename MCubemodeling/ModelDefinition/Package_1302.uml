@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e5bb8e7d-1eb1-48b4-8339-4da72072351b"
+  name="Model"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f872029d-cc6e-4474-bbd1-e18a49824ee1"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DModel"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e7c164cf-9772-4fa1-997d-d49f0bb759dd"
+        name="EpisodeEntity"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="585a00ef-6337-4ec3-a552-f332dfdf5236"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FModel%2Fbin%2FDebug%2FModel.dll&quot; Namespace%3DModel Type%3DEpisodeEntity"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d423878b-8f7b-45d3-8d74-132b69edf415"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e0ac4df6-1ef4-4fde-93f0-28c403586ef0">
+                <propertyInstance
+                  Id="f4c6ea83-8fe6-462e-a752-004c8f533c55"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="05bcd9b3-ea07-461f-b641-7be7a0acde0b">
+                <propertyInstance
+                  Id="5d22b161-58d3-467a-a148-697d79bdcca5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1e335b0e-facf-42b9-9401-c2619ac10168">
+                <propertyInstance
+                  Id="d75bf75e-75b7-4e1d-8e9c-bc630a1793bb"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6053a451-2dd2-4ee4-9074-2858658c256e">
+                <propertyInstance
+                  Id="672931f5-b6c0-49f6-af8a-4ecdee02fbe9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="902529f3-f2d8-4a1d-a328-396ba74cc185">
+                <propertyInstance
+                  Id="ea40d772-319b-453a-833d-5addcfd10be7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8d2756fe-911c-4206-a8d6-09ea4cff9d70"
+        name="SeasonEntity"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="402ab476-8e74-48b7-8972-7c113ba83a11"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FModel%2Fbin%2FDebug%2FModel.dll&quot; Namespace%3DModel Type%3DSeasonEntity"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4b89e7fa-a722-4eed-a83d-1619cdafd52b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1cfbd5d-0188-4ac9-a300-9543faf3ab1d">
+                <propertyInstance
+                  Id="1176c2d1-85aa-4aa1-8a60-32616d6e753e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="81f9560d-39b0-4139-b61d-80f5594ea39c">
+                <propertyInstance
+                  Id="0ac391cf-6ded-464b-ae93-4669d8131c82"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e4db764e-e35d-4286-94f3-00d22e84efb0">
+                <propertyInstance
+                  Id="f2334704-908d-4416-b5eb-817c02f5805d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="462c45e4-e5bd-4714-890d-ab02f6e489c0">
+                <propertyInstance
+                  Id="1bb17902-ea09-484c-ad76-e49bf5d8ace6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="daa7b3c9-faa3-4131-8343-3927458763a6">
+                <propertyInstance
+                  Id="4c38fba0-a9be-4d9c-a67f-f9c59b16e80f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ce13dbea-2d28-4cc5-9f1f-f67ca965b57b"
+        name="SeriesEntity"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="216da908-8784-4c1a-be80-e2e20f492485"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FModel%2Fbin%2FDebug%2FModel.dll&quot; Namespace%3DModel Type%3DSeriesEntity"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="45198556-d073-4c75-85c1-9a996e9deb47"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be39ec67-a12a-49ac-bc25-7c1fb2a364cf">
+                <propertyInstance
+                  Id="29464aee-a4b9-42a4-804c-faf0e14720d8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="341f98b4-5bab-4662-a654-9ec05d4b7fb9">
+                <propertyInstance
+                  Id="72a84e74-e31c-47f0-bb5a-420ad1df36d3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dc8840a6-ffbf-4d8b-92e3-6cae46fe0bde">
+                <propertyInstance
+                  Id="219850ed-602b-4b10-bb13-55bc9460755d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1465e901-6b70-4840-86da-9868dc309e46">
+                <propertyInstance
+                  Id="2a8d784a-eb41-4271-82dd-36ccaa7dcdad"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec23e477-f39e-44b0-a5c5-494f2854d119">
+                <propertyInstance
+                  Id="9aa1ee48-c94e-4b3e-8aad-0e3d01cb247a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6fc73b32-0468-4dac-bc87-9c424ae1e3e6"
+        name="MovieEntity"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8a36d90b-31f4-4b14-9c89-029dad7b6ccf"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJulien%2FDocuments%2FVisual Studio 2013%2FProjects%2FMcube%2FModel%2Fbin%2FDebug%2FModel.dll&quot; Namespace%3DModel Type%3DMovieEntity"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="25437e15-f1a4-4fc2-a0db-1cfc4eaf93b9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b09a2522-2a23-4928-996e-1f8f80b2be23">
+                <propertyInstance
+                  Id="43e0e3eb-2b7c-4837-b3ff-dde56ef494bd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="91db8641-a730-4fbb-bd31-b42269f2c77b">
+                <propertyInstance
+                  Id="98ca9c36-8f86-4306-8b05-f6c77663bc63"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2204a5d8-c51a-42ec-b095-b9a239d9d84f">
+                <propertyInstance
+                  Id="9b53f73b-1e95-4743-91d7-73b670ad4e8e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f2b52823-8b7b-46ca-8b06-59c2249ec7a0">
+                <propertyInstance
+                  Id="b324975b-952e-4b5e-a105-6bbac6b8d991"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cba99ffa-e890-4236-a791-8d7948edba91">
+                <propertyInstance
+                  Id="7defa3cb-b4ac-41ba-ba1f-38ee90a4ec2a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

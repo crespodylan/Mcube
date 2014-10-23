@@ -8,7 +8,7 @@ namespace Model
     /// <summary>
     /// Bean
     /// </summary>
-    public class EpisodeEntity
+    public class EpisodeEntity : Entity
     {
         public string Id { get; set; }
         public string ProviderName { get; set; }
