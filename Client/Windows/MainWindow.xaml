@@ -6,15 +6,13 @@
         Title="Meta Media Manager" Height="800" Width="1800" WindowStartupLocation="CenterScreen" Background="{DynamicResource ResourceKey=Font}"
         AllowsTransparency="True"
         ResizeMode="CanResizeWithGrip"
-        WindowStyle="None" >
-    <Grid Focusable="True">
+        WindowStyle="None">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <c:Top_border_bar x:Name="TopBar" Grid.Row="0" />
-        <w:Explorer Grid.Row="1"/>
-        
+        <c:Top_border_bar x:Name="TopBar" Grid.Row="0" Focusable="True"/>
     </Grid>
 </Window>

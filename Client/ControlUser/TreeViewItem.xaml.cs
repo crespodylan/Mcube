@@ -20,9 +20,37 @@ namespace Client.ControlUser
     /// </summary>
     public partial class TreeViewItem : UserControl
     {
-        public TreeViewItem()
+        public enum Type { DIRECTORY, FILE, VIDEO, MUSIC };
+
+        private Type type;
+
+        public TreeViewItem(Type type)
         {
             InitializeComponent();
+
+            this.type = type;
+
+            Init();
         }
+
+        private void Init()
+        {
+            switch(this.type)
+            {
+                case Type.DIRECTORY:
+                    //Background = this.FindResource("directory") as ImageBrush;
+                    break;
+                case Type.FILE:
+                    Background = this.FindResource("file") as ImageBrush;
+                    break;
+                case Type.MUSIC:
+                    //Background = this.FindResource("") as ImageBrush;
+                    break;
+                case Type.VIDEO:
+                    //Background = this.FindResource("movie") as ImageBrush;
+                    break;
+            }
+        }
+
     }
 }

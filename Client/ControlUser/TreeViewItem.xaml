@@ -6,6 +6,19 @@
              mc:Ignorable="d" 
              d:DesignHeight="30" d:DesignWidth="100">
     <Grid>
-            
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="70"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Resources>
+            <ImageBrush x:Key="directory" ImageSource="..\Ressources\Image\directory_icone.png"/>
+            <ImageBrush x:Key="movie" ImageSource="..\Ressources\Image\movie_icone.png"/>
+            <ImageBrush x:Key="file" ImageSource="..\Ressources\Image\file.png"/>
+        </Grid.Resources>
+
+        <Canvas Background="{DynamicResource ResourceKey=file}" Grid.Column="0"/>
+        <WrapPanel Grid.Column="1">
+            <TextBlock Text="" TextAlignment="Center" VerticalAlignment="Center"/>
+        </WrapPanel>
     </Grid>
 </UserControl>

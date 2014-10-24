@@ -151,30 +151,46 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Ressources\Image\btn_close.png" />
+    <Resource Include="Ressources\Image\btn_close.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Ressources\Image\Font.png" />
+    <Resource Include="Ressources\Image\Font.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Ressources\Image\btn_close_clik.png" />
-    <Resource Include="Ressources\Image\btn_close_hover.png" />
+    <Resource Include="Ressources\Image\btn_close_clik.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Ressources\Image\btn_close_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Ressources\Image\filtre.png" />
+    <Resource Include="Ressources\Image\filtre.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Ressources\Image\directory_icone.png" />
+    <Resource Include="Ressources\Image\directory_icone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Ressources\Image\movie_icone.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Ressources\Image\file_icone.png" />
+    <Resource Include="Ressources\Image\movie_icone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Windows\Music\" />
     <Folder Include="Windows\Video\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Ressources\Image\file.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
