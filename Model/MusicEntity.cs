@@ -6,18 +6,24 @@ using System.Threading.Tasks;
 
 namespace Model
 {
+    /// <summary>
+    /// 
+    /// </summary>
     class MusicEntity : Entity
     {
-        public String _sName { get; set; }
-        public DateTime _dRecording { get; set; }
-        public int _iLength { get; set; }
-        public GenreEntity _cGenre { get; set; }
-        public GroupEntity _cGroup { get; set; }
-        public List<Entity> _cProducters { get; set; }
-        public String _sLabel { get; set; }
-        public Dictionary<string, int> _dRankingCountry { get; set; }
-        public String _sOtherInformations { get; set; }
-        public List<Entity> _cInterpreters { get; set; }
-        public List<Entity> _cMusicians { get; set; }
+        public String Name { get; set; }
+        public DateTime Recording { get; set; }
+        public int Duration { get; set; }
+        public string Genre { get; set; }
+        public GroupEntity Group { get; set; }
+        public List<Entity> Producters { get; set; }
+        public String Label { get; set; }
+        public Dictionary<string, int> RankingCountry { get; set; }
+        public String OtherInformations { get; set; }
+        public List<PersonEntity> Musicians { get; set; }
+        public List<PersonEntity> Compositors { get; set; }
+        public PersonEntity Autor { get; set; }
+        public AlbumEntity Album { get; set; }
+        
     }
 }

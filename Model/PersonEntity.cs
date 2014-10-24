@@ -8,8 +8,11 @@ namespace Model
 {
     class PersonEntity
     {
-        public String _sFirstName { get; set; }
-        public String _sLastName { get; set; }
-        public DateTime _dBirthDay { get; set; }
+        public String FirstName { get; set; }
+        public String LastName { get; set; }
+        public DateTime BirthDay { get; set; }
+        public String Biography { get; set; }
+        public String Activity { get; set; }
+
     }
 }

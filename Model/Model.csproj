@@ -39,8 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlbumEntity.cs" />
     <Compile Include="Entity.cs" />
-    <Compile Include="GenreEntity.cs" />
     <Compile Include="GroupEntity.cs" />
     <Compile Include="MusicEntity.cs" />
     <Compile Include="EpisodeEntity.cs" />
