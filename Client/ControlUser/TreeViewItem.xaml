@@ -3,22 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d" 
-             d:DesignHeight="30" d:DesignWidth="100">
-    <Grid>
+             mc:Ignorable="d"
+             d:DesignHeigth="30" d:DesignWidth="100"
+             Height="30" Width="Auto">
+    <Grid x:Name="grid" Background="Gray" Width="Auto">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="30"/>
-            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <Grid.Resources>
             <ImageBrush x:Key="directory" ImageSource="..\Ressources\Image\directory_icone.png"/>
             <ImageBrush x:Key="movie" ImageSource="..\Ressources\Image\movie_icone.png"/>
             <ImageBrush x:Key="file" ImageSource="..\Ressources\Image\file.png"/>
+            <!--<ImageBrush x:Key="music" ImageSource="..\Ressources\Image\"/>-->
         </Grid.Resources>
 
-        <Canvas Background="{DynamicResource ResourceKey=file}" Grid.Column="0"/>
-        <WrapPanel Grid.Column="1">
-            <TextBlock Text="" TextAlignment="Center" VerticalAlignment="Center"/>
-        </WrapPanel>
+        <Canvas x:Name="imagePanel"  Width="30" Background="{DynamicResource ResourceKey=file}" Grid.Column="0"/>
+        <TextBlock x:Name="textPanel" Grid.Column="1"  Margin="3,1,3,1" Text="" TextAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </UserControl>

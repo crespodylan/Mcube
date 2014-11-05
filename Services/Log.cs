@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public class Log
+    public sealed class Log
     {
         private static Log LOG;
         private static StreamWriter logs;
@@ -36,7 +36,7 @@ namespace Services
         {
             logs.Write("-- ERROR " + DateTime.Now + " --> ");
             logs.Write(text + " : ");
-            logs.WriteLine(e.Message);
+            logs.WriteLine(e.StackTrace);
         }
 
         public void handle (Exception e)

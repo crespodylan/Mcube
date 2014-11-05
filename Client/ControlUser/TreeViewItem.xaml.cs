@@ -24,30 +24,35 @@ namespace Client.ControlUser
 
         private Type type;
 
+        public TreeViewItem()
+        {
+            InitializeComponent();
+        }
+
         public TreeViewItem(Type type)
         {
             InitializeComponent();
-
             this.type = type;
-
-            Init();
+            init();
         }
 
-        private void Init()
+        private void init()
         {
             switch(this.type)
             {
                 case Type.DIRECTORY:
-                    //Background = this.FindResource("directory") as ImageBrush;
+                    textPanel.SetValue(Grid.ColumnProperty, 0);
+                    imagePanel.SetValue(Grid.ColumnProperty, 1);
+                    imagePanel.Background = this.FindResource("directory") as ImageBrush;
                     break;
                 case Type.FILE:
-                    Background = this.FindResource("file") as ImageBrush;
+                    imagePanel.Background = this.FindResource("file") as ImageBrush;
                     break;
                 case Type.MUSIC:
-                    //Background = this.FindResource("") as ImageBrush;
+                    imagePanel.Background = this.FindResource("") as ImageBrush;
                     break;
                 case Type.VIDEO:
-                    //Background = this.FindResource("movie") as ImageBrush;
+                    imagePanel.Background = this.FindResource("movie") as ImageBrush;
                     break;
             }
         }

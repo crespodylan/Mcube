@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Services.ProviderManager;
+using Client.Windows.Debug;
 
 namespace Client
 {
@@ -22,9 +22,13 @@ namespace Client
     /// </summary>
     public partial class MainWindow : Window
     {
+        Console console;
+
         public MainWindow()
         {
             InitializeComponent();
+            console = Console.GetInstance();
+            console.Show();
         }
     }
 }

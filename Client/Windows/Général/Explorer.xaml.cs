@@ -23,7 +23,7 @@ namespace Client.Windows
     {
         public Explorer()
         {
-            InitializeComponent();
+            InitializeComponent();           
         }
     }
 }

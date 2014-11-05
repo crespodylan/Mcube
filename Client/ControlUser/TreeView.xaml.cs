@@ -12,17 +12,51 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using Services;
 
 namespace Client.ControlUser
 {
     /// <summary>
     /// Logique d'interaction pour TreeView.xaml
     /// </summary>
-    public partial class TreeView : UserControl
+    public sealed partial class TreeView : UserControl
     {
-        public TreeView()
+        private string _path;
+        public String Path
+        {
+            get { return this._path; }
+            set
+            {
+                if (!Directory.Exists(value))
+                    Log.getInstance().error("Path is not a directory",new ArgumentException());
+                else
+                    this._path = value;
+            }
+        }
+
+        private TreeView()
         {
             InitializeComponent();
+        }
+
+        public TreeView(String path)
+        {
+            InitializeComponent();
+            this.Path = path;
+        }
+
+        private void Load(String path)
+        {
+            this.Path = path;
+            if(String.IsNullOrEmpty(this.Path))
+            {
+                Log.getInstance().error("Path is not a directory", new ArgumentException());
+            }
+            else
+            {
+                
+            }
         }
     }
 }

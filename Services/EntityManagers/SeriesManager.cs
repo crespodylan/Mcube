@@ -19,7 +19,5 @@ namespace Services
             }
             return new SeasonEntity();
         }
-
-
     }
 }
